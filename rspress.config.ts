@@ -5,10 +5,10 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'Rspress',
   description: 'Rspack-based Static Site Generator',
-  icon: "/rspress-icon.png",
+	icon: "https://lexmin0412.github.io/rspress-template/rspress-icon.png",
   logo: {
-    light: "/rspress-light-logo.png",
-    dark: "/rspress-dark-logo.png",
+		light: "https://lexmin0412.github.io/rspress-template/rspress-light-logo.png",
+		dark: "https://lexmin0412.github.io/rspress-template/rspress-dark-logo.png",
   },
   themeConfig: {
     socialLinks: [
@@ -17,7 +17,7 @@ export default defineConfig({
 	},
 	builderConfig: {
 		output: {
-			assetPrefix: '/rspress-template/'
+			assetPrefix: 'https://lexmin0412.github.io/rspress-template/'
 		}
 	},
 });
