@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "i18n": ["./i18n.json"]
+    }
   }
 }
