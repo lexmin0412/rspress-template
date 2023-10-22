@@ -138,7 +138,7 @@ jobs:
 
 #### 5.3 修改 rspress 配置
 
-由于我们的部署环境是 Github Pages，而它只分配给每个 Repo 的只是一个域名下的二级路由，如仓库名为 rspress-template，则可访问的 pages 域名为 lexmin0412.github.io/rspress-template，所以我们需要调整 rspress 配置，以能够访问到部署目录下的静态资源文件(如 css/js 等)以及路由。
+由于我们的部署环境是 Github Pages，而它分配给每个 Repo 的只是一个域名下的二级路由，如仓库名为 rspress-template，则可访问的 pages 域名为 `https://lexmin0412.github.io/rspress-template`，所以我们需要调整 rspress 配置，以能够访问到部署目录下的静态资源文件(如 css/js 等)以及路由。
 
 修改根目录下的 rspress.config.ts, 加入如下内容：
 
