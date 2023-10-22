@@ -13,7 +13,7 @@ hero:
       text: Github
       link: https://github.com/web-infra-dev/rspress
   image:
-    src: /rspress-icon.png
+    src: https://lexmin0412.github.io/rspress-template/rspress-icon.png
     alt: Rspress Logo
 features:
   - title: Blazing fast build speed
