@@ -1,6 +1,6 @@
 # Rspress Template
 
-基于 Rspress 构建的文档站点模板，集成了常用功能以达到开箱即用。
+基于 Rspress 构建、开箱即用的文档站点模板，集成 Github Actions 自动化部署、国际化等功能。
 
 ## 模板搭建步骤
 
